@@ -4,7 +4,13 @@ import './App.css';
 import logo from './logo.svg';
 import Hello from './components/Hello/Hello';
 
-class App extends React.Component {
+export interface Props {
+}
+
+interface State {
+}
+
+class App extends React.Component<Props, State> {
   public render() {
     return (
       <div className="App">
@@ -14,8 +20,8 @@ class App extends React.Component {
         </header>
         <p className="App-intro">
           <code>Coolest Game Ever! :D</code>
-          <Hello name="Hussain" enthusiasmLevel={10}/>
         </p>
+        <div><Hello name="Hussain" enthusiasmLevel={10}/></div>
       </div>
     );
   }
