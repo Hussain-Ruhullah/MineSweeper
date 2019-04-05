@@ -2,7 +2,7 @@ import * as React from 'react';
 import './App.css';
 
 import logo from './logo.svg';
-import Hello from './containers/Hello';
+import Hello from './containers/hello';
 
 export interface Props {
 }

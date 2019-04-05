@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as enzyme from 'enzyme';
-import Hello from './Hello';
+import Hello from './hello';
 
 it('renders 1 <Hello /> component', () => {
   const hello = enzyme.shallow(<Hello name='Daniel' />)
