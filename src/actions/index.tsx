@@ -12,7 +12,8 @@ export type EnthusiasmAction = IncrementEnthusiasm | DecrementEnthusiasm;
 
 export function incrementEnthusiasm(): IncrementEnthusiasm {
     return {
-        type: constants.INCREMENT_ENTHUSIASM
+        type: constants.INCREMENT_ENTHUSIASM,
+        //payload:
     }
 }
 
