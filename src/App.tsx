@@ -2,7 +2,7 @@ import * as React from 'react';
 import './App.css';
 
 import logo from './logo.svg';
-import Hello from './components/Hello/Hello';
+import Hello from './containers/Hello';
 
 export interface Props {
 }
@@ -21,7 +21,7 @@ class App extends React.Component<Props, State> {
         <p className="App-intro">
           <code>Coolest Game Ever! :D</code>
         </p>
-        <div><Hello name="Hussain" enthusiasmLevel={10}/></div>
+        <div><Hello /></div>
       </div>
     );
   }

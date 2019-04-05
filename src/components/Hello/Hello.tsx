@@ -1,5 +1,3 @@
-// src/components/StatefulHello.tsx
-
 import * as React from "react";
 import "./Hello.css";
 
@@ -27,7 +25,6 @@ function Hello({ name, enthusiasmLevel = 1, onIncrement, onDecrement }: Props) {
     </div>
   );
 }
-
 
 
 export default Hello;
