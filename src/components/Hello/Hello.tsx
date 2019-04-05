@@ -3,17 +3,17 @@
 import * as React from "react";
 import "./Hello.css";
 
-export type IProps = {
+export interface Props {
   name: string;
   enthusiasmLevel?: number;
 }
 
-type IState = {
+interface State {
   currentEnthusiasm: number;
 }
 
-class Hello extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
+class Hello extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.state = { currentEnthusiasm: props.enthusiasmLevel || 1 };
   }
